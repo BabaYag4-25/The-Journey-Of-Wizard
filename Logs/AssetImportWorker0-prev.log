@@ -1,145 +1,185 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 24418 MB
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16267 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.0f1\Editor\Unity.exe
+D:\UNITY\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/ProjectUnityGO/unity/The-Journey-Of-Wizard
+E:/UNITY/The-Journey-Of-Wizard
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62312
-Successfully changed project path to: D:/ProjectUnityGO/unity/The-Journey-Of-Wizard
-D:/ProjectUnityGO/unity/The-Journey-Of-Wizard
+61292
+Successfully changed project path to: E:/UNITY/The-Journey-Of-Wizard
+E:/UNITY/The-Journey-Of-Wizard
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/ProjectUnityGO/unity/The-Journey-Of-Wizard/Assets
+[Subsystems] Discovering subsystems at path D:/UNITY/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/The-Journey-Of-Wizard/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6172
+    VRAM:     4021 MB
+    Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Mono path[0] = 'D:/UNITY/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UNITY/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001159 seconds.
+Register platform support module: D:/UNITY/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001133 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.083 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000678 seconds.
+Registered in 0.000861 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.020 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1855 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.3 MB.
 System memory in use after: 87.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 2.530900 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.127400 ms  DeleteObjects: 0.078400 ms)
+Total: 2.901100 ms (FindLiveObjects: 0.408900 ms CreateObjectMapping: 0.151900 ms MarkObjects: 2.216900 ms  DeleteObjects: 0.122500 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/castle pixel.jpg
   artifactKey: Guid(3a11d1005b1130b4a82e425f81e8f2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/castle pixel.jpg using Guid(3a11d1005b1130b4a82e425f81e8f2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514855058326d47d1265e3219a583150') in 0.205293 seconds
-  Import took 0.208920 seconds .
+Start importing Assets/castle pixel.jpg using Guid(3a11d1005b1130b4a82e425f81e8f2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514855058326d47d1265e3219a583150') in 0.217337 seconds
+  Import took 0.220961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000490 seconds.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9545de5495494dcf82aff290dae9b07c') in 0.008448 seconds
+  Import took 0.012572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
   path: Assets/ThaleahFat_TTF.ttf
   artifactKey: Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThaleahFat_TTF.ttf using Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a818a44fda0955cb3b2bf5ec8f37d7a3') in 0.075816 seconds
-  Import took 0.079125 seconds .
+Start importing Assets/ThaleahFat_TTF.ttf using Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a818a44fda0955cb3b2bf5ec8f37d7a3') in 0.065803 seconds
+  Import took 0.070592 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.535808 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9545de5495494dcf82aff290dae9b07c') in 0.005805 seconds
-  Import took 0.009225 seconds .
+  Time since last request: 5.237639 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(626bf30b02807124889609affeb013bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(626bf30b02807124889609affeb013bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cee7a67f481d073abedde7ea270a9f') in 0.009046 seconds
+  Import took 0.012104 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006183 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(c4a601e922cdfc744b55855e712de905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9545de5495494dcf82aff290dae9b07c') in 0.002730 seconds
-  Import took 0.007091 seconds .
+  Time since last request: 25.424765 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239c1b2e0ec7454871d19d631550eb33') in 0.009296 seconds
+  Import took 0.013296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.674604 seconds.
+  Time since last request: 7.515903 seconds.
   path: Assets/Script
   artifactKey: Guid(f11511e641d12784fb43718ea256ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(f11511e641d12784fb43718ea256ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492bcd5ef051d9c250a4558ae634f68b') in 0.007032 seconds
-  Import took 0.010556 seconds .
+Start importing Assets/Script using Guid(f11511e641d12784fb43718ea256ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492bcd5ef051d9c250a4558ae634f68b') in 0.006979 seconds
+  Import took 0.010581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.207174 seconds.
+  Time since last request: 0.946121 seconds.
   path: Assets/Script/PlayerMovement.cs
   artifactKey: Guid(4f416a0c5baa1d74888256b719070253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerMovement.cs using Guid(4f416a0c5baa1d74888256b719070253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec2f15ff26e53dc2abb95202289e63f') in 0.013552 seconds
-  Import took 0.017807 seconds .
+Start importing Assets/Script/PlayerMovement.cs using Guid(4f416a0c5baa1d74888256b719070253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1a6c2cc5a66c0adab1c2ca49a9b55') in 0.011382 seconds
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020814 seconds.
+  path: Assets/Script/PlayerMovement.cs
+  artifactKey: Guid(4f416a0c5baa1d74888256b719070253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerMovement.cs using Guid(4f416a0c5baa1d74888256b719070253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1a6c2cc5a66c0adab1c2ca49a9b55') in 0.002714 seconds
+  Import took 0.006151 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000998 seconds.
+Registered in 0.000918 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
+- Completed reload, in  0.944 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.3 MB.
 System memory in use after: 89.4 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2353.
-Total: 2.768600 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.132000 ms MarkObjects: 2.113400 ms  DeleteObjects: 0.026500 ms)
+Total: 2.430900 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.185000 ms MarkObjects: 1.824900 ms  DeleteObjects: 0.016900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 2.234800 ms (FindLiveObjects: 0.242400 ms CreateObjectMapping: 0.081400 ms MarkObjects: 1.892100 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
