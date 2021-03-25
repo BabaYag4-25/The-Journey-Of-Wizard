@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     public float ms;
     public float jf;
+    public Animator animator;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float horiz = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horiz * ms, rb.velocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(horiz));
 
         if (horiz > 0 || horiz < 0)
         {
