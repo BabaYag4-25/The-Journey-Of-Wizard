@@ -4,32 +4,55 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rb;
-    public float ms;
-    public float jf;
-    public Animator animator;
+    public float playerSpeed;
+    public float jumpSpeed;
+
+    private bool isJumping;
+    private float move;
+    private Rigidbody2D rb;
+    private Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
-    
     void Update()
     {
-        float horiz = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(horiz * ms, rb.velocity.y);
-        animator.SetFloat("Speed", Mathf.Abs(horiz));
+        move = Input.GetAxis("Horizontal");
 
-        if (horiz > 0 || horiz < 0)
+        rb.velocity = new Vector2(move * playerSpeed, rb.velocity.y);
+
+        if (move < 0)
         {
-            transform.localScale = new Vector2(1.0f * horiz, 1.0f);
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (move > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.y) < 0.001f)
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
-            rb.AddForce(new Vector2(0, jf), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed));
+            isJumping = true;
         }
 
+        RunAnimations();
     }
 
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+        }
+    }
+
+    void RunAnimations()
+    {
+        anim.SetFloat("Movement", Mathf.Abs(move));
+        anim.SetBool("isJumping", isJumping);
+    }
 }

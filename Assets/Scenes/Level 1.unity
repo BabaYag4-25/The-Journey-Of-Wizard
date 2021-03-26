@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 297010920}
   m_Layer: 0
   m_Name: tile
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1093,9 +1093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f416a0c5baa1d74888256b719070253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ms: 5
-  jf: 13
-  animator: {fileID: 1524884986}
+  playerSpeed: 7
+  jumpSpeed: 800
 --- !u!50 &1524884982
 Rigidbody2D:
   serializedVersion: 4
