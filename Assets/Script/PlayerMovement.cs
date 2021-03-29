@@ -38,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed));
             isJumping = true;
         }
-
         RunAnimations();
     }
 
