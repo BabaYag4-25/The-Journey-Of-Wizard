@@ -8,7 +8,12 @@ public class PlayerMovement : MonoBehaviour
     float jumpSpeed, playerSpeed;
 
     private bool isJumping;
+    private bool isShoot;
     private float move;
+
+    [SerializeField]
+    private float shootDelay = 1f;
+
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject bullet;
@@ -29,7 +34,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.M))
         {
+            if (isShoot) return;
             Shoot();
+
+            Invoke("ResetShoot", shootDelay);
         }
 
         if (move < 0)
@@ -70,9 +78,16 @@ public class PlayerMovement : MonoBehaviour
     {
         GameObject Shoot = Instantiate(bullet, transform.position, transform.rotation);
         Rigidbody2D rb = Shoot.GetComponent<Rigidbody2D>();
-
         rb.AddForce(dir * Force, ForceMode2D.Impulse);
+        anim.Play("shoot_anim");
+        isShoot = true;
 
+    }
+
+    void ResetShoot()
+    {
+        isShoot = false;
+        anim.Play("idle_anim");
     }
 
 }

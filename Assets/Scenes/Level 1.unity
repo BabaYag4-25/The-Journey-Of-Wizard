@@ -2406,6 +2406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSpeed: 700
   playerSpeed: 6
+  shootDelay: 0.3
   bullet: {fileID: 3087721246475157418, guid: ef058cac4bfb8524896a0d3c2dfa66fa, type: 3}
   Force: 9
 --- !u!50 &1524884982
