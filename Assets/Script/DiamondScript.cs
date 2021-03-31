@@ -8,7 +8,6 @@ public class DiamondScript : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("PlayerDiamond"))
         {
-            Debug.Log("coin diambil");
             Destroy(gameObject);
             DiamondCounter.hitungdiamond += 1;
         }    
