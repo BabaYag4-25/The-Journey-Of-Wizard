@@ -5,11 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    public Animator transisi;
+
+    public float waktuTransisi = 1f;
     // Start is called before the first frame update
-    public void PlayGame()
+    public void LoadSelectLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
     }
+
+    IEnumerator LoadScene(int sceneIndex)
+    {
+        //play animasi
+        transisi.SetTrigger("Start");
+
+        //wait
+        yield return new WaitForSeconds(waktuTransisi);
+
+        //load scene
+        SceneManager.LoadScene(sceneIndex);
+    }
+
 
     public void QuitGame()
     {

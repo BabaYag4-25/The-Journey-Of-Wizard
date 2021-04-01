@@ -12,10 +12,10 @@ public class LevelLoader : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
+        //if(Input.GetMouseButtonDown(0))
+        //{
             LoadSelectLevel();
-        }
+        //}
     }
 
     public void LoadSelectLevel()

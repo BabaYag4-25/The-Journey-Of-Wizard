@@ -8,6 +8,10 @@ public class LevelManager : MonoBehaviour
 {
     int levelsUnlocked;
 
+    public Animator transisi;
+
+    public float waktuTransisi = 1f;
+
     public Button[] buttons;
     void Start()
     {
@@ -26,12 +30,18 @@ public class LevelManager : MonoBehaviour
 
     public void LoadLevel(int levelIndex)
     {
-        SceneManager.LoadScene(levelIndex);
+        StartCoroutine(LoadScene(levelIndex));
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator LoadScene(int sceneIndex)
     {
-        
+        //play animasi
+        transisi.SetTrigger("Start");
+
+        //wait
+        yield return new WaitForSeconds(waktuTransisi);
+
+        //load scene
+        SceneManager.LoadScene(sceneIndex);
     }
 }
