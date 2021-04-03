@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float jumpSpeed, playerSpeed;
 
-    private bool isJumping;
+    public bool isJumping;
     private bool isShoot;
     private float move;
 
@@ -58,14 +58,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         RunAnimations();
-    }
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Ground"))
-        {
-            isJumping = false;
-        }
     }
 
     void RunAnimations()
