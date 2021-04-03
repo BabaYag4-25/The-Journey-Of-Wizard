@@ -906,7 +906,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 75e2af28d7e54164fb1592d726a32be7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1708,7 +1708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1181725155575927089, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -36
       objectReference: {fileID: 0}
     - target: {fileID: 1181725155575927089, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1726,6 +1726,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: OptionsMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1181725155575927094, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725155637997495, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSize
+      value: 41.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725155637997495, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
+    - target: {fileID: 1181725155637997495, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725155637997495, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 41.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725155637997495, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6385050407917148080, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
     - target: {fileID: 1181725155860702471, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
       propertyPath: m_Value
       value: 0.5
@@ -1734,9 +1758,81 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1374183515}
+    - target: {fileID: 1181725156510731121, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156510731121, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156510731121, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156522520309, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSize
+      value: 29.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156522520309, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
+    - target: {fileID: 1181725156522520309, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156522520309, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 29.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156522520309, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6385050407917148080, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
+    - target: {fileID: 1181725156732463981, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSize
+      value: 77.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156732463981, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
+    - target: {fileID: 1181725156732463981, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156732463981, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 77.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156732463981, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6385050407917148080, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
     - target: {fileID: 1181725156754383805, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 779230965}
+    - target: {fileID: 1181725156947771926, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156947771926, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156947771926, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156947771927, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181725156947771927, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8618dafa1e3c1794ca25a53f1484b50f, type: 3}
