@@ -576,8 +576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -64.76966}
-  m_SizeDelta: {x: 620.0105, y: 399.6753}
+  m_AnchoredPosition: {x: 0, y: -197.5845}
+  m_SizeDelta: {x: 620.0105, y: 665.3051}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &466283279
 GameObject:
@@ -2157,8 +2157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000007458, y: 43.187534}
-  m_SizeDelta: {x: 605.8621, y: 301.7585}
+  m_AnchoredPosition: {x: -0.000007458, y: 48}
+  m_SizeDelta: {x: 605.8621, y: 552.9546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105964956
 MonoBehaviour:
@@ -2180,25 +2180,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Credits
-
-    MUHAMMAD FITRAH RAMADHAN
-
-    Muhammad Fadhilah Bagaskara
-
-    Alifiah
-    Maharani
-
-    Hafidz
-
-    Ahmad Ghifari
-
-    
-
-    menu select = Axton Dylan
-    Crolley "Menu Theme"
-
-    main menu = Matthew Pablo "Soliloquy"'
+  m_text: "Credits:\r\n\r\n- Soliloquy by Matthew Pablo (Main Menu)\r\n- Menu Theme
+    by Axton Dylan C. (menu select)\r\n- Opening by bariq18 (Level 1)\r\n\r\nCreated
+    by:\r\nDesigner\t: Alifiah Maharani\r\n\t\t  Muhammad Fadhilah B.\t  \r\nArtist\t\t:
+    MUHAMMAD FITRAH R.\nProgrammer\t: Ahmad Ghifari\r\n\t\t  Hafidz"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
   m_sharedMaterial: {fileID: -6385050407917148080, guid: 79f660f31d493d946b75e9bb3e58c946, type: 2}
@@ -2225,8 +2210,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 27.89
+  m_fontSizeBase: 27.89
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
