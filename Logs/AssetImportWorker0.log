@@ -160,3 +160,4 @@ Received Import Request.
 Start importing Assets/Asset game/tombol/UIMENU1 1.png using Guid(cdec4df003c6313479d91d052295f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee6dcbbdeec1dad5e371149005e5934') in 0.015994 seconds
   Import took 0.020200 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
