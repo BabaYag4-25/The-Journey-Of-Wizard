@@ -1008,6 +1008,7 @@ MonoBehaviour:
   isJumping: 0
   shootDelay: 0.3
   bullet: {fileID: 3087721246475157418, guid: ef058cac4bfb8524896a0d3c2dfa66fa, type: 3}
+  Force: 10
 --- !u!95 &282967079
 Animator:
   serializedVersion: 3
