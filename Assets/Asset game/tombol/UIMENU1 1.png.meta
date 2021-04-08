@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: cdec4df003c6313479d91d052295f308
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8918477208297381663
+    second: UIMENU1 1_0
+  - first:
+      213: -6755580058793705408
+    second: UIMENU1 1_1
+  - first:
+      213: 1092089804398300302
+    second: UIMENU1 1_2
+  - first:
+      213: -3303783558448888307
+    second: UIMENU1 1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UIMENU1 1_0
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 863
+        width: 415
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0640e2b343b3480800000000000000
+      internalID: -8918477208297381663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMENU1 1_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 437
+        width: 753
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04083e7aabb5f32a0800000000000000
+      internalID: -6755580058793705408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMENU1 1_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 261
+        width: 465
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c8cf514e1e72f00800000000000000
+      internalID: 1092089804398300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMENU1 1_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 93
+        width: 467
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c0e79b5a9622d0800000000000000
+      internalID: -3303783558448888307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
