@@ -6,6 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     [SerializeField]
     private int health;
+    public GameObject menuContainer;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("bullet"))
@@ -16,6 +17,11 @@ public class EnemyScript : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+        }
+        if (collision.CompareTag("PlayerDiamond"))
+        {
+            menuContainer.SetActive(true);
+            //SceneManager.LoadScene(Respawn);
         }
     }
 }
