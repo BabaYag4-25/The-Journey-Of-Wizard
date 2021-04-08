@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject bullet;
+    public float Force;
+    Vector3 dir;
 
     void Start()
     {
@@ -30,27 +32,24 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(move * playerSpeed, rb.velocity.y);
 
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (isShoot) return;
+            Shoot();
+
+            Invoke("ResetShoot", shootDelay);
+
+        }
 
         if (move < 0)
         {
+            dir = Quaternion.AngleAxis(180, Vector3.forward) * Vector3.right;
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else if (move > 0)
         {
+            dir = Quaternion.AngleAxis(0, Vector3.forward) * Vector3.right;
             transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            if (isShoot) return;
-            anim.Play("shoot_anim");
-            isShoot = true;
-
-            GameObject Shoot = Instantiate(bullet, transform.position, transform.rotation);
-            Shoot.GetComponent<PeluruScript>().StartShoot(move);
-
-            Invoke("ResetShoot", shootDelay);
-
         }
 
         if (Input.GetButtonDown("Jump") && !isJumping)
@@ -66,6 +65,15 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetFloat("Movement", Mathf.Abs(move));
         anim.SetBool("isJumping", isJumping);
+    }
+
+    void Shoot()
+    {
+        GameObject Shoot = Instantiate(bullet, transform.position, transform.rotation);
+        Rigidbody2D rb = Shoot.GetComponent<Rigidbody2D>();
+        rb.AddForce(dir * Force, ForceMode2D.Impulse);
+        anim.Play("shoot_anim");
+        isShoot = true;
     }
 
     void ResetShoot()
