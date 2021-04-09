@@ -54,6 +54,9 @@ TagManager:
   - name: tile
     uniqueID: 2728564215
     locked: 0
+  - name: panah
+    uniqueID: 384589811
+    locked: 0
   - name: player
     uniqueID: 2495661065
     locked: 0

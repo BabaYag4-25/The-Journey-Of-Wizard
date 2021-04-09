@@ -1740,8 +1740,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909726837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.600266, y: 2.6581535, z: 0}
-  m_LocalScale: {x: 1.366692, y: 1.366692, z: 1.366692}
+  m_LocalPosition: {x: 34.600266, y: 2.6837, z: 0}
+  m_LocalScale: {x: 1.366692, y: 1.3789921, z: 1.366692}
   m_Children: []
   m_Father: {fileID: 1178692050}
   m_RootOrder: 0
@@ -3451,7 +3451,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1799306231
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -6570145322729700044, guid: 3408d6e501342e64c938ecc6e690b439, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3845,7 +3845,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1404801501
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -8452758636597052514, guid: 27401e081dfcf9b45a173c6f6b49e99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbad83d02de1074d9c9d3518e07d115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 35
   menuContainer: {fileID: 1974854718}
 --- !u!61 &1559145151
 BoxCollider2D:
