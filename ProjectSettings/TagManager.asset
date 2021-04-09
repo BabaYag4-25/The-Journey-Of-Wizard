@@ -57,7 +57,7 @@ TagManager:
   - name: panah
     uniqueID: 384589811
     locked: 0
-  - name: player
+  - name: diamond
     uniqueID: 2495661065
     locked: 0
   - name: bullet
