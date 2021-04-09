@@ -12,8 +12,8 @@ public class PortalScript : MonoBehaviour
     {
         if (collision.CompareTag("PlayerDiamond"))
         {
-            /*menuContainer.SetActive(true);*/
-            SceneManager.LoadScene(Respawn);
+            menuContainer.SetActive(true);
+            //SceneManager.LoadScene(Respawn);
         }
     }
 }
