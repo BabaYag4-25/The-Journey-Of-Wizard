@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    int levelsUnlocked;
+    //int levelsUnlocked;
 
     public Animator transisi;
 
@@ -15,12 +15,15 @@ public class LevelManager : MonoBehaviour
     public Button[] buttons;
     void Start()
     {
-        levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked", 1);
+       int levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked",1);
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            if (i + 1 > levelsUnlocked)
-                buttons[i].interactable = false;
+            buttons[i].interactable = false;
+        }
+        for (int i = 0; i < levelsUnlocked; i++)
+        {
+            buttons[i].interactable = true;
         }
     }
 
