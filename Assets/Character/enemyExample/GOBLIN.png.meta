@@ -100,12 +100,12 @@ TextureImporter:
       name: GOBLIN_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 287
-        width: 155
-        height: 170
+        x: 27
+        y: 293
+        width: 141
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,7 +126,7 @@ TextureImporter:
         width: 145
         height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

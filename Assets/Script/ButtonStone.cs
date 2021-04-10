@@ -6,10 +6,14 @@ public class ButtonStone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("batu"))
+        if(DiamondCounter.hitungdiamond == 5)
         {
-            /*menuContainer.SetActive(true);*/
-            Destroy(gameObject);
+            if (collision.CompareTag("batu"))
+            {
+                /*menuContainer.SetActive(true);*/
+                Destroy(gameObject);
+            }
         }
+        
     }
 }

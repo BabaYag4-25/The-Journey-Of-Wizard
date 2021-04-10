@@ -8,7 +8,7 @@ public class DoorScript : MonoBehaviour
     {
         if (collision.CompareTag("bullet"))
         {
-            Destroy(collision.gameObject);
+                Destroy(collision.gameObject);
         }
     }
 }
